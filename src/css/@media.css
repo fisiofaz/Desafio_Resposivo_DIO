@@ -1,0 +1,100 @@
+@media screen and (min-width: 430px) {
+    .header {
+        background-image: url('../img/Header\ Background\ mobili.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50rem;
+        display: flex;    
+    }
+
+    .headerContent {
+        margin: 5rem 1rem 10rem 1rem; 
+    }
+
+    .headerContent h1 {
+        font-size: 4.2rem;
+        line-height: 4.2rem; 
+        text-align: left;
+        justify-content: left;
+        margin-left: 2rem;
+        width: 27.8rem;
+    }
+
+    .headerContent p {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        text-align: left;
+        margin-left: 2rem;
+        width: 38rem;
+        margin-bottom: 3rem;
+    }
+
+    .headerContent .headerContent-btn {
+        flex-direction: column;
+    }
+
+   .headerContent .headerContent-btn .headerContent-btn-uno, .headerContent .headerContent-btn .headerContent-btn-duo {
+        margin-left: 2rem;
+        width: 38rem;
+        height: 5.4rem;        
+    }
+    
+    .main {
+        gap: 0;
+        justify-content: left;
+    }
+
+    .main .mainSection-Uno, .main .mainSection-Three {
+        flex-direction: column;    
+        padding: 3rem 3rem 3rem 4rem;
+        gap: 3rem;
+    }
+
+    img {
+        width: 37.9rem;
+        height: 25.2rem;
+    }
+
+    .main .mainSection-Uno .mainSection-Uno-Text h2, .main .mainSection-Duo .mainSection-Uno-Text h2, .main .mainSection-Three .mainSection-Uno-Text h2  {
+        font-size: 2.6rem;
+        font-weight: 800;
+        line-height: 3.268rem;
+    }
+
+    .main .mainSection-Duo {
+        flex-direction: column-reverse;
+        padding: 3rem 3rem 1rem 4rem;
+    }
+
+    .main .mainSection-Duo .mainSection-Uno-Text {
+       padding-top: 2rem;
+    }
+
+    .main .mainSection-Four {
+        width: 42.8rem;
+        flex-direction: column;
+        padding: 2rem 0 3rem 4rem;
+        gap: 3rem;
+    }
+
+    .main .mainSection-Four h2 {        
+        padding-left: 3rem;
+        font-size: 3.2rem;
+        line-height: 3.2rem;
+        font-weight: 800;
+        text-align: left;
+        width: 37.6rem;
+    }
+
+    .main .mainSection-Four p {
+        padding-left: 3rem;
+        text-align: left;
+        width: 37.8rem;
+    }
+    
+    .main .mainSection-Four img {
+        padding-left: 3rem;
+        width: 37.9rem;
+        height: 25.2rem;
+    }
+}
