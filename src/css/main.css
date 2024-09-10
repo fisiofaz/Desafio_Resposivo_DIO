@@ -1,0 +1,36 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+}
+
+.main .mainSection-Uno {
+    background-color: var( --color-bgprim);
+    display: flex;    
+    padding: 3rem 24rem 3rem 14.4rem;
+    gap: 3rem;
+}
+
+.main .mainSection-Uno .mainSection-Uno-Text h2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 4rem;
+    font-weight: 800;
+    line-height: 5.447rem;
+    color: var(--color-textsec);
+    margin-bottom: 2rem;
+}
+
+.main .mainSection-Uno .mainSection-Uno-Text p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.2rem;
+    color: var(--color-textsec);
+}
+
+.main .mainSection-Duo {
+    background-color: var(--color-bgsec);
+    display: flex;
+    padding: 3rem 14.4rem 3rem 24rem;
+}
