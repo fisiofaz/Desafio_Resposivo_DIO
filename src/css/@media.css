@@ -1,4 +1,4 @@
-@media screen and (min-width: 430px) {
+@media screen and (max-width: 430px) {
     .header {
         background-image: url('../img/Header\ Background\ mobili.svg');
         background-repeat: no-repeat;
